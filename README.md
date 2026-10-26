@@ -1,6 +1,6 @@
 # Sri Krishna Iron Works — website
 
-Website for **www.srikrishnaironworks.com**. Plain HTML/CSS/JS with no build step, no server and no monthly fees.
+Website for **srikrishnaironworks.com**. Plain HTML/CSS/JS with no build step, no server and no monthly fees.
 
 ## Pages
 
@@ -52,11 +52,11 @@ python3 -m http.server 8080
 ## Connect the domain srikrishnaironworks.com
 
 1. Buy the domain (see the cheapest options below).
-2. GitHub repo → **Settings → Pages → Custom domain** → enter `www.srikrishnaironworks.com` → Save.
+2. GitHub repo → **Settings → Pages → Custom domain** → enter `srikrishnaironworks.com` → Save.
 3. At the registrar, add these DNS records:
    - `CNAME`  `www`  →  `<your-username>.github.io`
    - `A`  `@`  →  `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
 4. Wait for DNS to update (from a few minutes up to a few hours), then tick **Enforce HTTPS**.
-5. Add the site to Google Search Console and submit `https://www.srikrishnaironworks.com/sitemap.xml`.
+5. Add the site to Google Search Console and submit `https://srikrishnaironworks.com/sitemap.xml`.
 6. Create or claim the **Google Business Profile** for the workshop, and add the website link to it.
    For "steel fabrication Madurai" searches, this matters more than anything else.
