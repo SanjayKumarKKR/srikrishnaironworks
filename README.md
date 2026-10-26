@@ -38,9 +38,12 @@ Replace them with your own workshop and project photos whenever you can.
 
 ```bash
 cd steel-website
-python3 -m http.server 8080
-# open http://localhost:8080
+npx serve .
+# open the address it prints (e.g. http://localhost:3000)
 ```
+
+Links use clean addresses (`/about`, not `about.html`). GitHub Pages and `npx serve` both
+understand these; `python3 -m http.server` does not, so links between pages won't work with it.
 
 ## Publish on GitHub Pages (free)
 
